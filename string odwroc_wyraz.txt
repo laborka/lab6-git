@@ -1,0 +1,4 @@
+string odwroc(string tekst)
+{
+	int i = 0;
+	int n;
