@@ -1,0 +1,19 @@
+int main() {
+
+	cout << "usun spacje:" << endl;
+	string tekst;
+	
+
+	getline(cin, tekst);
+
+	cout << usun_spacje(tekst);
+
+	cout <<endl<< "odwroc wyraz:" << endl;
+	string tekst2;
+	getline(cin, tekst2);
+
+cout << odwroc(tekst2);
+
+	_getch();
+	return 0;
+}
