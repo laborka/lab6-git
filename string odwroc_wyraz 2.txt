@@ -1,0 +1,20 @@
+string odwroc(string tekst)
+{
+	int i = 0;
+	int n;
+
+	string nowy;
+
+
+	n = tekst.length();
+for (int i = 0; i < n; i++)
+	{
+		kot.insert(i, tekst, n - i - 1, 1); //miejsce wstawienia,tekst,co z tekstu,ile
+	}
+
+
+	return kot;
+
+
+
+}
