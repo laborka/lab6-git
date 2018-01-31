@@ -2,3 +2,8 @@ string odwroc(string tekst)
 {
 	int i = 0;
 	int n;
+
+	string nowy;
+
+
+	n = tekst.length();
