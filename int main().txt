@@ -5,3 +5,9 @@ int main() {
 	
 
 	getline(cin, tekst);
+
+	cout << usun_spacje(tekst);
+
+	cout <<endl<< "odwroc wyraz:" << endl;
+	string tekst2;
+	getline(cin, tekst2);
